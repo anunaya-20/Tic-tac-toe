@@ -2,24 +2,24 @@
 
 ## Overview
 
-This is a simple console-based implementation of the classic Tic-Tac-Toe game using C++. The human player plays against the computer, which uses the **Minimax algorithm to make optimal moves.
+This is a basic text-based version of the classic Tic-Tac-Toe game developed in C++. The user competes against the computer, which makes decisions using the **Minimax algorithm to play intelligently.
 
 ## Algorithm Used
 
-The computer uses the Minimax Algorithm for decision making. It explores all possible game states using recursion and chooses the move that maximizes its chances of winning while minimizing the chances for the opponent.
+The computer's strategy is powered by the Minimax Algorithm. It systematically explores all possible moves and outcomes through recursion and selects the move that offers the best chance of success while reducing the opponent’s chances of winning.
 
 ### Key Features of Minimax:
-- Recursive backtracking to simulate every possible game outcome.
-- Evaluation function returns:
+- Utilizes recursive backtracking to evaluate all potential game states.
+- The scoring function evaluates outcomes as follows:
   - +1 if the human wins,
   - -1 if the computer wins,
   - 0 for a draw.
-- Computer always plays optimally.
+- Ensures that the computer always makes the best possible move.
 
 ## How to Compile and Run
 
 ### Prerequisites
-- A C++ compiler like g++ installed on your system.
+- Make sure you have a C++ compiler like g++ installed on your system.
 
 ### Compilation Steps
 
